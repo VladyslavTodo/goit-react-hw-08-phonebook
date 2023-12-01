@@ -42,13 +42,8 @@ const SignUpForm = () => {
   const onSubmit = event => {
     event.preventDefault();
 
-    dispatch(register({ name, email, password }))
-      .unwrap()
-      .then(() => Notiflix.Notify.success('Welcome to Phonebook'))
-      .catch(() =>
-        Notiflix.Notify.failure(`
-A user with this email address already exists`)
-      );
+    dispatch(register({ name, email, password }));
+
     setName('');
     setEmail('');
     setPassword('');

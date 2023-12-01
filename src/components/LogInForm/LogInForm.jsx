@@ -39,12 +39,6 @@ const LogInForm = () => {
     event.preventDefault(event);
 
     dispatch(logIn({ email, password }))
-      .unwrap()
-      .then(() => Notiflix.Notify.success('Welcome'))
-      .catch(() =>
-        Notiflix.Notify.failure(`
-Email or Password is incorrect`)
-      );
     setEmail('');
     setPassword('');
   };
