@@ -13,6 +13,7 @@ export const Form = styled.form`
   cursor: pointer;
   transition: all 0.3s linear 0s;
   box-shadow: rgb(67, 135, 112) 9px 9px 18px, rgb(149, 255, 248) -9px -9px 18px;
+  justify-content: center;
 `;
 
 export const Label = styled.label`
