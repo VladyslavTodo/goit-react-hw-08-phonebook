@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { selectFilteredContacts } from 'redux/contacts/selectors';
 import { deleteContact, getAllContacts } from 'redux/contacts/operation';
 
-import { Button } from './ContactItem.styled';
+import { Button, WrapperUl } from './ContactItem.styled';
 
 const ContactItem = () => {
   const dispatch = useDispatch();
@@ -15,7 +15,7 @@ const ContactItem = () => {
   }, [dispatch]);
 
   return (
-    <ul>
+    <WrapperUl>
       {contacts.map(contact => (
         <li key={contact.id}>
           {contact.name}: {contact.number}
@@ -27,7 +27,7 @@ const ContactItem = () => {
           </Button>
         </li>
       ))}
-    </ul>
+    </WrapperUl>
   );
 };
 

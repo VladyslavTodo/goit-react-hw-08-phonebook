@@ -22,3 +22,13 @@ export const ErrorMessage = styled.p`
   font-size: 40px;
   text-align: center;
 `;
+
+export const WrapperUl = styled.ul`
+  text-align: center;
+  li {
+    background-color: #00000012;
+    border-radius: 8px;
+    width: 400px;
+    margin: 0 auto 10px;
+  }
+`;

@@ -44,4 +44,22 @@ export const Btn = styled.button`
   border: 1px solid #198754;
   background-color: transparent;
   cursor: pointer;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    color: white;
+    background-color: #19875429;
+  }
+
+  &.active {
+    color: white;
+    background-color: #198754;
+  }
+`;
+
+export const Logo = styled.img`
+  width: 35px;
+  border-radius: 50%;
+  margin-left: -15px;
 `;

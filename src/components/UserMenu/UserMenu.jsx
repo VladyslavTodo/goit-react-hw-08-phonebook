@@ -2,8 +2,9 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import { selectUser } from 'redux/auth/selectors';
 import { logOut } from 'redux/auth/operation';
+import logo from '../../images/logo_default.png';
 
-import { Wrapper, Btn, Name } from './UserMenu.styled';
+import { Wrapper, Btn, Name, Logo } from './UserMenu.styled';
 
 const UserMenu = () => {
   const dispatch = useDispatch();
@@ -12,7 +13,8 @@ const UserMenu = () => {
 
   return (
     <Wrapper>
-      <Name>Welcome, {name}</Name>
+      <Name>{name}</Name>
+      <Logo src={logo} alt="" />
       <Btn onClick={() => dispatch(logOut())}>Log Out</Btn>
     </Wrapper>
   );
