@@ -38,7 +38,8 @@ const LogInForm = () => {
   const onSubmit = event => {
     event.preventDefault(event);
 
-    dispatch(logIn({ email, password }))
+    dispatch(logIn({ email, password }));
+
     setEmail('');
     setPassword('');
   };
