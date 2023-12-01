@@ -11,8 +11,10 @@ export const Form = styled.form`
   border-radius: 8px;
   padding: 8px 16px;
   transition: all 0.3s linear 0s;
-  box-shadow: rgba(0, 0, 0, 0.082) 0px 0px 3px, rgba(0, 0, 0, 0.17) 0px 2px 3px;
+  /* box-shadow: rgba(0, 0, 0, 0.082) 0px 0px 3px, rgba(0, 0, 0, 0.17) 0px 2px 3px;
   margin: 20px auto;
+  box-shadow: rgb(67, 135, 112) 9px 9px 18px, rgb(149, 255, 248) -9px -9px 18px;
+  justify-content: center; */
 `;
 
 export const Label = styled.label`
