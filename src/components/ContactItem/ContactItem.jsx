@@ -18,7 +18,13 @@ const ContactItem = () => {
     <WrapperUl>
       {contacts.map(contact => (
         <li key={contact.id}>
-          {contact.name}: {contact.number}
+          <p>
+            {contact.name}:{' '}
+            <a href={`tel:${contact.number}`} tel="">
+              {contact.number}
+            </a>
+          </p>
+
           <Button
             type="button"
             onClick={() => dispatch(deleteContact(contact.id))}
