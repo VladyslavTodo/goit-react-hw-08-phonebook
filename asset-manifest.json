@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.dd3318fd.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.cdc4e230.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.76e6a0e5.js",
     "static/js/415.42be1cd2.chunk.js": "/goit-react-hw-08-phonebook/static/js/415.42be1cd2.chunk.js",
     "static/js/763.32b43f39.chunk.js": "/goit-react-hw-08-phonebook/static/js/763.32b43f39.chunk.js",
     "static/js/607.736208c1.chunk.js": "/goit-react-hw-08-phonebook/static/js/607.736208c1.chunk.js",
-    "static/js/804.87fac962.chunk.js": "/goit-react-hw-08-phonebook/static/js/804.87fac962.chunk.js",
+    "static/js/804.4817e684.chunk.js": "/goit-react-hw-08-phonebook/static/js/804.4817e684.chunk.js",
     "static/js/430.5265be88.chunk.js": "/goit-react-hw-08-phonebook/static/js/430.5265be88.chunk.js",
     "static/media/logo_default.png": "/goit-react-hw-08-phonebook/static/media/logo_default.b8bda9f6ad7a2ba88eb0.png",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.dd3318fd.css.map": "/goit-react-hw-08-phonebook/static/css/main.dd3318fd.css.map",
-    "main.cdc4e230.js.map": "/goit-react-hw-08-phonebook/static/js/main.cdc4e230.js.map",
+    "main.76e6a0e5.js.map": "/goit-react-hw-08-phonebook/static/js/main.76e6a0e5.js.map",
     "415.42be1cd2.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/415.42be1cd2.chunk.js.map",
     "763.32b43f39.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/763.32b43f39.chunk.js.map",
     "607.736208c1.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/607.736208c1.chunk.js.map",
-    "804.87fac962.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/804.87fac962.chunk.js.map",
+    "804.4817e684.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/804.4817e684.chunk.js.map",
     "430.5265be88.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/430.5265be88.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd3318fd.css",
-    "static/js/main.cdc4e230.js"
+    "static/js/main.76e6a0e5.js"
   ]
 }
